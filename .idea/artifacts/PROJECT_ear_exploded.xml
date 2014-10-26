@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="PROJECT:ear exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/PROJECT_ear_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="PROJECT/javaeeApplication/javaEEApplication" />
+      <element id="directory" name="web.war">
+        <element id="artifact" artifact-name="PROJECT:war exploded" />
+      </element>
+      <element id="directory" name="lib">
+        <element id="library" level="project" name="Struts 2-2.3.16.3" />
+        <element id="library" level="project" name="Hibernate 4.2.2-4.2.2" />
+        <element id="library" level="project" name="mysql-connector-java-5.1.28-bin" />
+      </element>
+    </root>
+  </artifact>
+</component>

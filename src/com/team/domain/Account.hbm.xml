@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.team.domain.Account" table="account" schema="" catalog="stu">
+        <id name="accUid" column="acc_uid"/>
+        <property name="accUname" column="acc_uname"/>
+        <property name="accIsadmin" column="acc_isadmin"/>
+    </class>
+</hibernate-mapping>
